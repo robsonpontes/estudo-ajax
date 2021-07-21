@@ -10,6 +10,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
     <title>Estudo com Alan</title>
+    
 
 
     <!-- Bootstrap core CSS -->
@@ -57,7 +58,7 @@
                         <div class="col-sm-6">
                             <label  for="firstName" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Primeiro nome</font></font></label>
-                            <input name="primeiroNome" type="text" class="form-control" placeholder="" value="" required="">
+                            <input name="primeiroNome" type="text" class="form-control" placeholder="Nome" value="" required="">
                             <div class="invalid-feedback">
                                 Valid first name is required.
                             </div>
@@ -66,7 +67,7 @@
                         <div class="col-sm-6">
                             <label for="lastName" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Sobrenome</font></font></label>
-                            <input  name="segundoNome" type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                            <input  name="segundoNome" type="text" class="form-control" id="lastName" placeholder="Sobrenome" value="" required="">
                             <div class="invalid-feedback">
                                 Valid last name is required.
                             </div>
@@ -78,7 +79,7 @@
                             <div class="input-group has-validation">
                                 <span class="input-group-text"><font style="vertical-align: inherit;"><font
                                                 style="vertical-align: inherit;">@</font></font></span>
-                                <input type="text" class="form-control" id="username" placeholder="Nome do usuário"
+                                <input name="Usuário"type="text" class="form-control" id="username" placeholder="Nome do usuário"
                                        required="">
                                 <div class="invalid-feedback">
                                     Your username is required.
@@ -91,7 +92,7 @@
                                             style="vertical-align: inherit;">Email </font></font><span
                                         class="text-muted"><font style="vertical-align: inherit;"><font
                                                 style="vertical-align: inherit;">(opcional)</font></font></span></label>
-                            <input type="email" class="form-control" id="email" placeholder="voce@example.com">
+                            <input name="E-mail"type="email" class="form-control" id="email" placeholder="voce@example.com">
                             <div class="invalid-feedback">
                                 Please enter a valid email address for shipping updates.
                             </div>
@@ -100,7 +101,7 @@
                         <div class="col-12">
                             <label for="address" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Endereço</font></font></label>
-                            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                            <input name="Endereço"type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
                             <div class="invalid-feedback">
                                 Please enter your shipping address.
                             </div>
@@ -120,8 +121,8 @@
                             <select class="form-select" id="country" required="">
                                 <option value=""><font style="vertical-align: inherit;"><font
                                                 style="vertical-align: inherit;">Escolher...</font></font></option>
-                                <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Estados
-                                            Unidos</font></font></option>
+                                <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Brasil            
+                                                </font></font></option>
                             </select>
                             <div class="invalid-feedback">
                                 Please select a valid country.
@@ -134,7 +135,7 @@
                             <select class="form-select" id="state" required="">
                                 <option value=""><font style="vertical-align: inherit;"><font
                                                 style="vertical-align: inherit;">Escolher...</font></font></option>
-                                <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Califórnia</font></font>
+                                <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">São Paulo</font></font>
                                 </option>
                             </select>
                             <div class="invalid-feedback">
@@ -144,8 +145,11 @@
 
                         <div class="col-md-3">
                             <label for="zip" class="form-label"><font style="vertical-align: inherit;"><font
-                                            style="vertical-align: inherit;">Fecho eclair</font></font></label>
+                                            style="vertical-align: inherit;">CEP</font></font></label>
                             <input type="text" class="form-control" id="zip" placeholder="" required="">
+                            <small class="text-muted"><font style="vertical-align: inherit;"><font
+                                            style="vertical-align: inherit;"> <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" 
+                                            target="_blank" rel="noopener">Não sei meu CEP</a> </font></font></small>
                             <div class="invalid-feedback">
                                 Zip code required.
                             </div>
@@ -175,7 +179,7 @@
 
                     <div class="my-3">
                         <div id="form-pagamento" class="form-check">
-                            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked=""
+                            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" required=""
                                    required="">
                             <label class="form-check-label" for="credit"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Cartão de crédito</font></font></label>
@@ -243,6 +247,10 @@
             </div>
         </div>
     </main>
+                <div class="py-5 text-center">
+            
+                    <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bora Codar sim Robson!
+                    </font></font></p>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
         <p class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">© 2017–2021 Nome
