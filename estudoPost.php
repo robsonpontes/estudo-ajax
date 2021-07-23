@@ -79,8 +79,7 @@
                             <div class="input-group has-validation">
                                 <span class="input-group-text"><font style="vertical-align: inherit;"><font
                                                 style="vertical-align: inherit;">@</font></font></span>
-                                <input name="Usuário"type="text" class="form-control" id="username" placeholder="Nome do usuário"
-                                       required="">
+                                <input name="Usuário"type="text" class="form-control" id="username" placeholder="Nome do usuário" required="">
                                 <div class="invalid-feedback">
                                     Your username is required.
                                 </div>
@@ -118,7 +117,7 @@
                         <div class="col-md-5">
                             <label for="country" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">País</font></font></label>
-                            <select class="form-select" id="country" required="">
+                            <select name="país"class="form-select" id="country" required="">
                                 <option value=""><font style="vertical-align: inherit;"><font
                                                 style="vertical-align: inherit;">Escolher...</font></font></option>
                                 <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Brasil            
@@ -132,7 +131,7 @@
                         <div class="col-md-4">
                             <label for="state" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Estado</font></font></label>
-                            <select class="form-select" id="state" required="">
+                            <select name="Estado"class="form-select" id="state" required="">
                                 <option value=""><font style="vertical-align: inherit;"><font
                                                 style="vertical-align: inherit;">Escolher...</font></font></option>
                                 <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">São Paulo</font></font>
@@ -146,7 +145,7 @@
                         <div class="col-md-3">
                             <label for="zip" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">CEP</font></font></label>
-                            <input type="text" class="form-control" id="zip" placeholder="" required="">
+                            <input name="CEP"type="text" class="form-control" id="zip" placeholder="00000-000" required="">
                             <small class="text-muted"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;"> <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" 
                                             target="_blank" rel="noopener">Não sei meu CEP</a> </font></font></small>
@@ -200,7 +199,7 @@
                         <div class="col-md-6">
                             <label for="cc-name" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Nome no cartão</font></font></label>
-                            <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                            <input name="NomeDoPagador"type="text" class="form-control" id="cc-name" placeholder="" required="">
                             <small class="text-muted"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Nome completo conforme exibido no
                                         cartão</font></font></small>
@@ -213,7 +212,7 @@
                             <label for="cc-number" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Número do Cartão de
                                         Crédito</font></font></label>
-                            <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                            <input name="NºCartão"type="text" class="form-control" id="cc-number" placeholder="" required="">
                             <div class="invalid-feedback">
                                 Credit card number is required
                             </div>
@@ -222,7 +221,7 @@
                         <div class="col-md-3">
                             <label for="cc-expiration" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">Vencimento</font></font></label>
-                            <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                            <input name="VencimentoDoCartão"type="text" class="form-control" id="cc-expiration" placeholder="20/2020" required="">
                             <div class="invalid-feedback">
                                 Expiration date required
                             </div>
@@ -231,7 +230,7 @@
                         <div class="col-md-3">
                             <label for="cc-cvv" class="form-label"><font style="vertical-align: inherit;"><font
                                             style="vertical-align: inherit;">CVV</font></font></label>
-                            <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                            <input name="CVV"type="text" class="form-control" id="cc-cvv" placeholder="000" required="">
                             <div class="invalid-feedback">
                                 Security code required
                             </div>
